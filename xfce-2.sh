@@ -76,7 +76,6 @@ apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
 apt update && apt upgrade -y
 
-
 #### Complementos ###
 apt --no-install-recommends install -y cpu-x
 apt install qt4ct adwaita-qt -y
@@ -102,6 +101,14 @@ chmod 777 /usr/share/themes/
 chmod 777 /usr/share/themes/*
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/backgrounds/*
+
+#### Instalação da loja de aplicativos ####
+apt install -y nodejs git npm
+git clone https://github.com/app-outlet/app-outlet.git
+cd app-outlet
+npm install
+npm run start
+npm run build
 
 apt update && apt upgrade -y
 
