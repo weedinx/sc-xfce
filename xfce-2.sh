@@ -46,7 +46,7 @@ apt --no-install-recommends install -y lightdm
 apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
-apt --no-install-recommends install -y network-manager-gnome
+apt install -y network-manager-gnome
 apt install -y nemo
 #apt install -y thunar
 #apt install -y thunar-volman
