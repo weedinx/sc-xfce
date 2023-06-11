@@ -93,17 +93,17 @@ apt install libreoffice-l10n-pt-br -y
 apt install htop -y
 
 wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
-apt install ./virtualbox*.deb
+apt install -y ./virtualbox*.deb
 adduser and vboxusers
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-apt install ./google-chrome*.deb -y
+apt install -y ./google-chrome*.deb
 
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
-apt install ./code*.deb  -y
+apt install -y ./code*.deb
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
-apt install ./balena-etcher*.deb -y
+apt install -y ./balena-etcher*.deb
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/themes/*
