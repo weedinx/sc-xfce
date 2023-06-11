@@ -25,18 +25,14 @@ apt --no-install-recommends install -y xserver-xorg
 #Xfce minimo
 #-------------------------
 
-apt --no-install-recommends install -y xfwm4
-apt --no-install-recommends install -y xfce4-session
-apt --no-install-recommends install -y xfce4-panel
-apt --no-install-recommends install -y xfdesktop4
-apt --no-install-recommends install -y policykit-1
-apt --no-install-recommends install -y xfce4-power-manager
-apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
-apt --no-install-recommends install -y x11-xserver-utils
-apt --no-install-recommends install -y libxfce4ui-utils
-apt --no-install-recommends install -y xfce4-appfinder
-apt --no-install-recommends install -y xfce4-settings
-apt --no-install-recommends install -y xfconf
+apt-get --no-install-recommends install -y xfwm4
+apt-get --no-install-recommends install -y xfce4-session
+apt-get --no-install-recommends install -y xfce4-panel
+apt-get --no-install-recommends install -y xfdesktop4
+apt-get --no-install-recommends install -y policykit-1
+apt-get --no-install-recommends install -y xfce4-power-manager
+apt-get --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
+apt-get --no-install-recommends install -y x11-xserver-utils
 apt --no-install-recommends install -y xfce4-screenshooter
 
 apt update
