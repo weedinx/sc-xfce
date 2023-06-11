@@ -77,7 +77,6 @@ apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #### Complementos ###
 apt install qt5ct qt5-qtconfig adwaita-qt -y
 apt install paper-icon-theme moka-icon-theme papirus-icon-theme -y
-apt install flatpak gnome-software-plugin-flatpak gnome-software -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
