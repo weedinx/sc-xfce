@@ -123,7 +123,7 @@ apt autoremove --purge snapd -y
 ###Instalação do tema Yaru Colors##
 git clone https://github.com/Jannomag/Yaru-Colors.git
 cd ~/Yaru-Colors
-./install.sh
+bash install.sh
 
 apt update && apt upgrade -y
 
