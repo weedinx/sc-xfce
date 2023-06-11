@@ -47,15 +47,17 @@ apt --no-install-recommends install -y xfce4-screenshooter
 #### Basicos ###
 
 apt --no-install-recommends install -y lightdm
-#apt --no-install-recommends install -y slim
 apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
+apt --no-install-recommends install -y network-manager-gnome
+apt --no-install-recommends install -y thunar
+apt --no-install-recommends install -y thunar-volman
 #-------------------------
-apt install -y network-manager-gnome
+#apt install -y network-manager-gnome
 #sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
 #-------------------------
-apt install -y thunar thunar-volman
+#apt install -y thunar thunar-volman
 
 
 
@@ -72,17 +74,19 @@ apt --no-install-recommends install -y vlc
 apt --no-install-recommends -y install pulseaudio
 apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
+apt update && apt upgrade -y
 
 
 #### Complementos ###
-apt install qt5ct qt5-qtconfig adwaita-qt -y
+apt --no-install-recommends install -y cpu-x
+apt install qt4ct adwaita-qt -y
 apt install paper-icon-theme papirus-icon-theme -y
 apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
 apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
 apt --no-install-recommends install -y xfburn
-apt install -y firefox-esr firefox-esr-l10n-pt-br
+#apt install -y firefox-esr firefox-esr-l10n-pt-br
 apt --no-install-recommends install -y atril
 #apt-get --no-install-recommends install -y desktop-base
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
@@ -92,7 +96,6 @@ apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virti
 apt install -y virt-manager
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome*.deb -y
-apt install -f
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
 apt install ./code*.deb  -y
 chmod 777 /usr/share/themes/
