@@ -66,6 +66,7 @@ apt install -y gstreamer1.0-plugins-bad
 apt install -y gstreamer1.0-plugins-ugly
 apt install -y gstreamer1.0-nice
 #apt --no-install-recommends install -y vlc qt4-qtconfig
+qt5-assistant
 apt --no-install-recommends install -y vlc
 apt --no-install-recommends -y install pulseaudio
 apt --no-install-recommends install -y xfce4-pulseaudio-plugin
@@ -75,7 +76,7 @@ apt update
 
 #### Complementos ###
 apt --no-install-recommends install -y cpu-x
-apt install qt4ct adwaita-qt -y
+apt install -y adwaita-qt
 apt install paper-icon-theme papirus-icon-theme -y
 apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
@@ -101,10 +102,11 @@ chmod 777 /usr/share/backgrounds/*
 apt update
 
 #### Instalação da loja de aplicativos ####
-apt install -y nodejs npm
+apt install -y flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#apt install -y nodejs npm
 wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_2.1.0_amd64.deb
 apt install -y ./app-outlet*.deb
-
 apt autoremove --purge snapd -y
 
 apt update && apt upgrade -y
