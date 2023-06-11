@@ -113,12 +113,12 @@ chmod 777 /usr/share/backgrounds/*
 apt update
 
 #### Instalação da loja de aplicativos ####
-apt autoremove --purge snapd -y
 apt install -y flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 #apt install -y nodejs npm
 wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_2.1.0_amd64.deb
 apt install -y ./app-outlet*.deb
+apt autoremove --purge snapd -y
 
 apt update && apt upgrade -y
 
