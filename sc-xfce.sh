@@ -52,8 +52,8 @@ apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
 #-------------------------
-apt --no-install-recommends install -y network-manager-gnome
-sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
+apt install -y network-manager-gnome
+#sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
 #-------------------------
 apt install -y thunar thunar-volman
 
