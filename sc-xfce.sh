@@ -55,7 +55,7 @@ apt --no-install-recommends install -y mousepad
 apt --no-install-recommends install -y network-manager-gnome
 sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
 #-------------------------
-apt --no-install-recommends install -y thunar
+apt install -y thunar thunar-volman
 
 
 
