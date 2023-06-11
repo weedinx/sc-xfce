@@ -55,7 +55,7 @@ apt install -y thunar-volman
 #-------------------------
 
 #### Codecs e Audio/Video ###
-apt install -y libav-tools gstreamer1.0-libav
+apt install -y gstreamer1.0-libav
 #apt-get install -y ffmpeg
 apt install -y gstreamer1.0-plugins-good
 apt install -y gstreamer1.0-plugins-bad
