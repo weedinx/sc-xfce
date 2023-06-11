@@ -39,13 +39,9 @@ apt --no-install-recommends install -y xfce4-settings
 apt --no-install-recommends install -y xfconf
 apt --no-install-recommends install -y xfce4-screenshooter
 
-#-------------------------
-#Recomendados
-#-------------------------
-
+apt update
 
 #### Basicos ###
-
 apt --no-install-recommends install -y lightdm
 apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
@@ -57,8 +53,8 @@ apt install -y thunar-volman
 #apt install -y network-manager-gnome
 #sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
 #-------------------------
-#### Codecs e Audio/Video ###
 
+#### Codecs e Audio/Video ###
 apt install -y libav-tools gstreamer1.0-libav
 #apt-get install -y ffmpeg
 apt install -y gstreamer1.0-plugins-good
@@ -89,12 +85,20 @@ apt --no-install-recommends install -y atril
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 apt install libreoffice-l10n-pt-br -y
 apt install htop -y
+
 wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
 apt install ./virtualbox*.deb
+adduser and vboxusers
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome*.deb -y
+
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
 apt install ./code*.deb  -y
+
+wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
+apt install ./balena-etcher*.deb -y
+
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/themes/*
 chmod 777 /usr/share/backgrounds/
