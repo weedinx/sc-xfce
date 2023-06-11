@@ -79,7 +79,7 @@ apt update
 #### Complementos ###
 apt --no-install-recommends install -y cpu-x
 apt install -y adwaita-qt
-apt install paper-icon-theme papirus-icon-theme -y
+#apt install paper-icon-theme papirus-icon-theme -y
 apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
 apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
@@ -119,6 +119,11 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_2.1.0_amd64.deb
 apt install -y ./app-outlet*.deb
 apt autoremove --purge snapd -y
+
+###Instalação do tema Yaru Colors##
+git clone https://github.com/Jannomag/Yaru-Colors.git
+cd ~/Yaru-Colors
+./install.sh
 
 apt update && apt upgrade -y
 
