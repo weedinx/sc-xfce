@@ -70,7 +70,8 @@ apt --no-install-recommends install -y vlc
 apt --no-install-recommends -y install pulseaudio
 apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
-apt update && apt upgrade -y
+
+apt update
 
 #### Complementos ###
 apt --no-install-recommends install -y cpu-x
@@ -98,13 +99,14 @@ chmod 777 /usr/share/themes/*
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/backgrounds/*
 
+apt update
+
 #### Instalação da loja de aplicativos ####
-apt install -y nodejs git npm
-git clone https://github.com/app-outlet/app-outlet.git
-cd app-outlet
-npm install
-npm run start
-npm run build
+apt install -y nodejs npm
+wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_2.1.0_amd64.deb
+apt install -y ./app-outlet*.deb
+
+apt autoremove --purge snapd -y
 
 apt update && apt upgrade -y
 
