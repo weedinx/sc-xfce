@@ -61,8 +61,14 @@ apt install -y gstreamer1.0-plugins-good
 apt install -y gstreamer1.0-plugins-bad
 apt install -y gstreamer1.0-plugins-ugly
 apt install -y gstreamer1.0-nice
-#apt --no-install-recommends install -y vlc qt4-qtconfig
-qt5-assistant
+apt install -y gstreamer1.0-plugins-base
+apt install -y ffmpeg
+apt install -y sox
+apt install -y twolame
+apt install -y vorbis-tools
+apt install -y lame
+apt install -y faad
+apt install -y mencoder
 apt --no-install-recommends install -y vlc
 apt --no-install-recommends -y install pulseaudio
 apt --no-install-recommends install -y xfce4-pulseaudio-plugin
