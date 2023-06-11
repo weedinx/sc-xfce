@@ -47,8 +47,9 @@ apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
 apt --no-install-recommends install -y network-manager-gnome
-apt install -y thunar
-apt install -y thunar-volman
+apt install -y nemo
+#apt install -y thunar
+#apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
 #sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
@@ -120,10 +121,8 @@ wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_
 apt install -y ./app-outlet*.deb
 apt autoremove --purge snapd -y
 
-###Instalação do tema Yaru Colors##
-git clone https://github.com/Jannomag/Yaru-Colors.git
-cd ~/Yaru-Colors
-bash install.sh
+###Instalação do tema Yaru Colors###
+apt install -y yaru-theme-gtk
 
 apt update && apt upgrade -y
 
