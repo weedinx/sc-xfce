@@ -51,16 +51,12 @@ apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
 apt --no-install-recommends install -y network-manager-gnome
-apt --no-install-recommends install -y thunar
-apt --no-install-recommends install -y thunar-volman
+apt install -y thunar
+apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
 #sed -i 's/false/true/g' /etc/NetworkManager/NetworkManager.conf
 #-------------------------
-#apt install -y thunar thunar-volman
-
-
-
 #### Codecs e Audio/Video ###
 
 apt install -y libav-tools gstreamer1.0-libav
