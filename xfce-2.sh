@@ -122,7 +122,8 @@ apt install -y ./app-outlet*.deb
 apt autoremove --purge snapd -y
 
 ###Instalação do tema Yaru Colors###
-apt install -y yaru-theme-gtk
+apt install -y yaru-theme-gtk*
+apt install -y yaru-theme*
 
 apt update && apt upgrade -y
 
