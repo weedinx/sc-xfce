@@ -90,8 +90,8 @@ apt --no-install-recommends install -y atril
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 apt install libreoffice-l10n-pt-br -y
 apt install htop -y
-apt -y install qemu-kvm libvirt-daemon  bridge-utils virtinst libvirt-daemon-system
-apt -y install virt-top libguestfs-tools libosinfo-bin  qemu-system virt-manager
+apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
+apt install -y virt-manager
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome*.deb -y
 apt install -f
