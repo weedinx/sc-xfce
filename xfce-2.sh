@@ -86,7 +86,7 @@ apt --no-install-recommends install -y cups system-config-printer printer-driver
 apt --no-install-recommends install -y xfburn
 #apt install -y firefox-esr firefox-esr-l10n-pt-br
 apt --no-install-recommends install -y atril
-apt-get --no-install-recommends install -y desktop-base
+#apt-get --no-install-recommends install -y desktop-base
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 apt install libreoffice-l10n-pt-br -y
 apt install htop -y
