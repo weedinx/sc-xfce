@@ -40,7 +40,7 @@ apt update
 
 #### Basicos ###
 apt --no-install-recommends install -y lightdm
-apt --no-install-recommends install -y lxterminal
+apt --no-install-recommends install -y deepin-terminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
 #apt install -y network-manager
