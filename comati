@@ -82,7 +82,6 @@ apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
 apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
-apt --no-install-recommends install -y xfburn
 #apt install -y firefox-esr firefox-esr-l10n-pt-br
 apt --no-install-recommends install -y atril
 #apt-get --no-install-recommends install -y desktop-base
