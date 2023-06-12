@@ -33,6 +33,7 @@ apt-get --no-install-recommends install -y policykit-1
 apt-get --no-install-recommends install -y xfce4-power-manager
 apt-get --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 apt-get --no-install-recommends install -y x11-xserver-utils
+apt-get --no-install-recommends install -y libxfce4ui-utils
 apt --no-install-recommends install -y xfce4-screenshooter
 
 apt update
@@ -42,9 +43,8 @@ apt --no-install-recommends install -y lightdm
 apt --no-install-recommends install -y lxterminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
-apt install -y network-manager
+#apt install -y network-manager
 #apt --no-install-recommends install -y network-manager-gnome
-#apt install -y network-manager-gnome
 apt install -y nemo
 #apt install -y thunar
 #apt install -y thunar-volman
@@ -123,6 +123,12 @@ apt autoremove --purge snapd -y
 apt install -y yaru-theme-gtk*
 apt install -y yaru-theme*
 
+###Instalção da inferface gráfica de rede###
+apt --no-install-recommends install -y network-manager-gnome
+systemctl enable systemd-networkd.service
+systemctl start systemd-networkd.service
+systemctl restart systemd-networkd.service
+
 apt update && apt upgrade -y
 
-reboot
+
