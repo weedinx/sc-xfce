@@ -45,8 +45,7 @@ apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
 #apt install -y network-manager
 #apt --no-install-recommends install -y network-manager-gnome
-apt install -y nemo
-#apt install -y thunar
+apt install -y thunar
 #apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
