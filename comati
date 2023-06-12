@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 
 #-------------------------
-#Drivers###
+#Drivers
 #-------------------------
 
 apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
@@ -34,7 +34,8 @@ apt --no-install-recommends install -y xfce4-power-manager
 apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 apt --no-install-recommends install -y x11-xserver-utils
 apt --no-install-recommends install -y xfce4-screenshooter
-apt install -y dbus-x11
+apt --no-install-recommends install -y  xfce4-settings
+#apt install -y dbus-x11
 
 apt update
 
