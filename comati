@@ -17,7 +17,7 @@ apt --no-install-recommends install -y xserver-xorg-core
 #apt --no-install-recommends install -y xserver-xorg-video-intel
 #apt --no-install-recommends install -y xserver-xorg-video-nouveau
 #apt --no-install-recommends install -y xserver-xorg-video-nvidia
-#apt --no-install-recommends install -y xserver-xorg-video-ati
+apt --no-install-recommends install -y xserver-xorg-video-ati
 apt --no-install-recommends install -y xserver-xorg-video-fbdev
 apt --no-install-recommends install -y xserver-xorg
 
