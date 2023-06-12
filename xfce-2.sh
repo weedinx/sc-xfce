@@ -71,7 +71,7 @@ apt install -y mencoder
 apt --no-install-recommends install -y vlc
 apt --no-install-recommends -y install pulseaudio
 apt --no-install-recommends install -y xfce4-pulseaudio-plugin
-apt-get install -y alsa-utils
+#apt-get install -y alsa-utils
 
 apt update
 
