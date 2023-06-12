@@ -124,6 +124,7 @@ apt install -y yaru-theme-gtk*
 apt install -y yaru-theme*
 
 ###Instalção da inferface gráfica de rede###
+apt install -y network-manager
 apt --no-install-recommends install -y network-manager-gnome
 systemctl enable systemd-networkd.service
 systemctl start systemd-networkd.service
