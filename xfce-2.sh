@@ -89,6 +89,7 @@ apt --no-install-recommends install -y atril
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 apt install libreoffice-l10n-pt-br -y
 apt install htop -y
+apt install -y curl
 
 wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
 apt install -y ./virtualbox*.deb
