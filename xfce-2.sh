@@ -91,6 +91,12 @@ apt install libreoffice-l10n-pt-br -y
 apt install htop -y
 apt install -y curl
 
+## Instalação da interface do bluetooth###
+apt update
+
+apt install -y bluez pulseaudio-module-bluetooth
+apt install -y blueman
+
 wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
 apt install -y ./virtualbox*.deb
 adduser and vboxusers
@@ -119,7 +125,7 @@ apt install -y ./app-outlet*.deb
 apt autoremove --purge snapd -y
 
 ###Instalação do tema Yaru Colors###
-apt install -y yaru-theme-gtk*
+#apt install -y yaru-theme-gtk*
 apt install -y yaru-theme*
 
 ###Instalção da inferface gráfica de rede###
