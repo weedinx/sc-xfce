@@ -104,9 +104,8 @@ wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher
 apt install -y ./balena-etcher*.deb
 
 chmod 777 /usr/share/themes/
-chmod 777 /usr/share/themes/*
 chmod 777 /usr/share/backgrounds/
-chmod 777 /usr/share/backgrounds/*
+chmod 777 /usr/share/icons/
 
 apt update
 
