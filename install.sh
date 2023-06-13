@@ -21,6 +21,7 @@ apt --no-install-recommends install -y xserver-xorg-core
 #apt --no-install-recommends install -y xserver-xorg-video-ati
 apt --no-install-recommends install -y xserver-xorg-video-fbdev
 apt --no-install-recommends install -y xserver-xorg
+apt --no-install-recommends install -y xorg
 
 #-------------------------
 #Xfce minimo
