@@ -30,7 +30,7 @@ sudo apt --no-install-recommends install -y xserver-xorg
 sudo apt --no-install-recommends install -y xfwm4
 sudo apt --no-install-recommends install -y xfce4-panel
 sudo apt --no-install-recommends install -y xfdesktop4
-apt --no-install-recommends install -y policykit-1
+sudo apt --no-install-recommends install -y policykit-1
 sudo apt --no-install-recommends install -y xfce4-power-manager
 sudo apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 sudo apt --no-install-recommends install -y x11-xserver-utils
