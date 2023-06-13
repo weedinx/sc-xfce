@@ -114,16 +114,6 @@ chmod 777 /usr/share/icons/
 
 apt update
 
-#### Instalação da loja de aplicativos ####
-apt install -y flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-#apt install -y nodejs npm
-wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_2.1.0_amd64.deb
-apt install -y ./app-outlet*.deb
-apt autoremove --purge snapd -y
-
-apt update
-
 ##### Instalação do seletor de cores via Flatpak #####
 flatpak install -y --user https://flathub.org/repo/appstream/nl.hjdskes.gcolor3.flatpakref
 
