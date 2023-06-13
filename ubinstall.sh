@@ -36,11 +36,12 @@ apt --no-install-recommends install -y xfce4-session
 #apt --no-install-recommends install -y x11-xserver-utils
 #apt --no-install-recommends install -y xfce4-screenshooter
 apt install -y xfce4-terminal
+apt install -y thunar
 
 apt update
 
 #### Basicos ###
-#apt --no-install-recommends install -y lightdm
+apt --no-install-recommends install -y lightdm
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
 apt xfce4-goodies
