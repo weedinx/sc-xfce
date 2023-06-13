@@ -80,7 +80,7 @@ apt update
 sudo apt --no-install-recommends install -y cpu-x
 sudo apt install -y adwaita-qt
 #apt install paper-icon-theme papirus-icon-theme -y
-#apt install -y xfce4-whiskermenu-plugin
+sudo apt install -y xfce4-whiskermenu-plugin
 sudo apt install -y viewnior
 sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
@@ -121,13 +121,14 @@ apt update
 sudo apt install -y gpick
 
 ###Instalação do tema Yaru Colors###
-sudo apt install -y yaru-theme-gtk*
-sudo apt install -y yaru-theme*
+sudo apt install -y yaru-theme-gtk
+sudo apt install -y yaru-theme-icon
+#sudo apt install -y yaru-theme
 
 ###Instalção da inferface gráfica de rede###
 sudo apt install -y network-manager
-#sudo apt --no-install-recommends install -y
-#sudo apt install -y network-manager-gnome
+sudo apt --no-install-recommends install -y network-manager-gnome
+sudo apt install -y network-manager-gnome
 sudo systemctl enable systemd-networkd.service
 systemctl start systemd-networkd.service
 systemctl restart systemd-networkd.service
