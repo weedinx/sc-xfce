@@ -12,14 +12,14 @@ sudo apt update && apt upgrade -y
 #Xorg minimo
 #-------------------------
 
-#apt --no-install-recommends install -y xserver-xorg-core
+sudo apt --no-install-recommends install -y xserver-xorg-core
 #apt --no-install-recommends install -y xserver-xorg-video-vesa
 #apt --no-install-recommends install -y xserver-xorg-video-intel
 #apt --no-install-recommends install -y xserver-xorg-video-nouveau
 #apt --no-install-recommends install -y xserver-xorg-video-nvidia
-#apt --no-install-recommends install -y xserver-xorg-video-ati
-#apt --no-install-recommends install -y xserver-xorg-video-fbdev
-#apt --no-install-recommends install -y xserver-xorg
+sudo apt --no-install-recommends install -y xserver-xorg-video-ati
+sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev
+sudo apt --no-install-recommends install -y xserver-xorg
 #apt install -y xinit
 #sudo apt install -y xserver-xorg-core xserver-xorg-video-fbdev xserver-xorg
 
@@ -27,17 +27,19 @@ sudo apt update && apt upgrade -y
 #Xfce minimo
 #-------------------------
 
-#apt --no-install-recommends install -y xfwm4
-#apt --no-install-recommends install -y xfce4-panel
-#apt --no-install-recommends install -y xfdesktop4
-#apt --no-install-recommends install -y policykit-1
-#apt --no-install-recommends install -y xfce4-power-manager
-#apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
-#apt --no-install-recommends install -y x11-xserver-utils
-#apt --no-install-recommends install -y xfce4-screenshooter
-sudo apt install -y xfce4-session
+sudo apt --no-install-recommends install -y xfwm4
+sudo apt --no-install-recommends install -y xfce4-panel
+sudo apt --no-install-recommends install -y xfdesktop4
+apt --no-install-recommends install -y policykit-1
+sudo apt --no-install-recommends install -y xfce4-power-manager
+sudo apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
+sudo apt --no-install-recommends install -y x11-xserver-utils
+sudo apt --no-install-recommends install -y xfce4-screenshooter
+sudo apt --no-install-recommends install -y xfce4-session
+sudo apt --no-install-recommends install -y xfce4-goodies
 sudo apt install -y xfce4-terminal
 sudo apt install -y thunar
+
 
 apt update
 
@@ -45,7 +47,6 @@ apt update
 
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
-sudo apt install -y xfce4-goodies
 #apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
@@ -82,9 +83,9 @@ sudo apt install -y adwaita-qt
 sudo apt install -y viewnior
 sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
-#apt install -y firefox-esr firefox-esr-l10n-pt-br
+sudo apt install -y firefox-esr firefox-esr-l10n-pt-br
 #apt --no-install-recommends install -y atril
-#apt-get --no-install-recommends install -y desktop-base
+sudo apt-get --no-install-recommends install -y desktop-base
 #sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 #sudo apt install libreoffice-l10n-pt-br -y
 sudo apt install htop -y
@@ -130,5 +131,3 @@ systemctl start systemd-networkd.service
 systemctl restart systemd-networkd.service
 
 apt update && apt upgrade -y
-
-sudo apt install lightdm -y
