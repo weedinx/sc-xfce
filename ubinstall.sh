@@ -21,7 +21,7 @@ sudo apt update && apt upgrade -y
 #apt --no-install-recommends install -y xserver-xorg-video-fbdev
 #apt --no-install-recommends install -y xserver-xorg
 #apt install -y xinit
-sudo apt install -y xserver-xorg-core xserver-xorg-video-fbdev xserver-xorg
+#sudo apt install -y xserver-xorg-core xserver-xorg-video-fbdev xserver-xorg
 
 #-------------------------
 #Xfce minimo
