@@ -41,6 +41,7 @@ sudo apt install -y xfce4-terminal
 sudo apt install -y thunar
 
 
+
 apt update
 
 #### Basicos ###
@@ -69,7 +70,7 @@ sudo apt install -y lame
 sudo apt install -y faad
 sudo apt install -y mencoder
 sudo apt --no-install-recommends install -y vlc
-sudo apt --no-install-recommends -y install pulseaudio
+sudo apt --no-install-recommends install -y pulseaudio
 sudo apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
 
