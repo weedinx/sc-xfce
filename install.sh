@@ -34,6 +34,7 @@ apt --no-install-recommends install -y xfce4-power-manager
 apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 apt --no-install-recommends install -y x11-xserver-utils
 apt --no-install-recommends install -y xfce4-screenshooter
+apt install -y xfce4-terminal
 
 apt update
 
