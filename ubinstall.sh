@@ -21,14 +21,13 @@ sudo apt update && apt upgrade -y
 #apt --no-install-recommends install -y xserver-xorg-video-fbdev
 #apt --no-install-recommends install -y xserver-xorg
 #apt install -y xinit
-sudo apt install -y xserver-xorg xorg
+sudo apt install -y xserver-xorg-core xserver-xorg-video-fbdev xserver-xorg
 
 #-------------------------
 #Xfce minimo
 #-------------------------
 
 #apt --no-install-recommends install -y xfwm4
-sudo apt --no-install-recommends install -y xfce4-session
 #apt --no-install-recommends install -y xfce4-panel
 #apt --no-install-recommends install -y xfdesktop4
 #apt --no-install-recommends install -y policykit-1
@@ -36,13 +35,14 @@ sudo apt --no-install-recommends install -y xfce4-session
 #apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 #apt --no-install-recommends install -y x11-xserver-utils
 #apt --no-install-recommends install -y xfce4-screenshooter
+sudo apt xfce4-session
 sudo apt install -y xfce4-terminal
 sudo apt install -y thunar
 
 apt update
 
 #### Basicos ###
-sudo apt -y lightdm
+
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
 sudo apt install -y xfce4-goodies
@@ -85,8 +85,8 @@ sudo apt --no-install-recommends install -y cups system-config-printer printer-d
 #apt install -y firefox-esr firefox-esr-l10n-pt-br
 #apt --no-install-recommends install -y atril
 #apt-get --no-install-recommends install -y desktop-base
-sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
-sudo apt install libreoffice-l10n-pt-br -y
+#sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
+#sudo apt install libreoffice-l10n-pt-br -y
 sudo apt install htop -y
 sudo apt install -y curl zip unzip git
 
@@ -130,3 +130,5 @@ systemctl start systemd-networkd.service
 systemctl restart systemd-networkd.service
 
 apt update && apt upgrade -y
+
+sudo apt -y lightdm
