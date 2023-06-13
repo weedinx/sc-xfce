@@ -35,7 +35,7 @@ sudo apt update && apt upgrade -y
 #apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 #apt --no-install-recommends install -y x11-xserver-utils
 #apt --no-install-recommends install -y xfce4-screenshooter
-sudo apt xfce4-session
+sudo apt install -yxfce4-session
 sudo apt install -y xfce4-terminal
 sudo apt install -y thunar
 
@@ -131,4 +131,4 @@ systemctl restart systemd-networkd.service
 
 apt update && apt upgrade -y
 
-sudo apt -y lightdm
+sudo apt install -y lightdm
