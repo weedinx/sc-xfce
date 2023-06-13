@@ -34,18 +34,13 @@ apt --no-install-recommends install -y xfce4-power-manager
 apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 apt --no-install-recommends install -y x11-xserver-utils
 apt --no-install-recommends install -y xfce4-screenshooter
-apt --no-install-recommends install -y  xfce4-settings
-#apt install -y dbus-x11
 
 apt update
 
 #### Basicos ###
 apt --no-install-recommends install -y lightdm
-apt --no-install-recommends install -y deepin-terminal
 apt --no-install-recommends install -y lxtask
 apt --no-install-recommends install -y mousepad
-#apt install -y network-manager
-#apt --no-install-recommends install -y network-manager-gnome
 apt install -y thunar
 #apt install -y thunar-volman
 #-------------------------
@@ -109,6 +104,9 @@ apt install -y ./code*.deb
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
 apt install -y ./balena-etcher*.deb
+
+wget -O hyper_3.4.1_amd64.deb https://releases.hyper.is/download/deb
+apt install -y ./hyper*.deb
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
