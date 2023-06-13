@@ -20,7 +20,8 @@ apt update && apt upgrade -y
 #apt --no-install-recommends install -y xserver-xorg-video-ati
 #apt --no-install-recommends install -y xserver-xorg-video-fbdev
 #apt --no-install-recommends install -y xserver-xorg
-apt install -y xinit
+#apt install -y xinit
+apt install -y xserver-xorg xorg
 
 #-------------------------
 #Xfce minimo
@@ -41,11 +42,10 @@ apt install -y thunar
 apt update
 
 #### Basicos ###
-apt --no-install-recommends install -y lightdm
+apt -y lightdm
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
-apt xfce4-goodies
-#apt install -y thunar
+apt install -y xfce4-goodies
 #apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
@@ -93,21 +93,21 @@ apt install -y curl zip unzip git
 ## Instalação da interface do bluetooth###
 apt update
 
-apt install -y bluez pulseaudio-module-bluetooth
-apt install -y blueman
+#apt install -y bluez pulseaudio-module-bluetooth
+#apt install -y blueman
 
-wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
-apt install -y ./virtualbox*.deb
-adduser and vboxusers
+#wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
+#apt install -y ./virtualbox*.deb
+#adduser and vboxusers
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-apt install -y ./google-chrome*.deb
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#apt install -y ./google-chrome*.deb
 
-wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
-apt install -y ./code*.deb
+#wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
+#apt install -y ./code*.deb
 
-wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
-apt install -y ./balena-etcher*.deb
+#wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
+#apt install -y ./balena-etcher*.deb
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
