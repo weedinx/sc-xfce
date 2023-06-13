@@ -12,14 +12,15 @@ apt update && apt upgrade -y
 #Xorg minimo
 #-------------------------
 
-apt --no-install-recommends install -y xserver-xorg-core
+#apt --no-install-recommends install -y xserver-xorg-core
 #apt --no-install-recommends install -y xserver-xorg-video-vesa
 #apt --no-install-recommends install -y xserver-xorg-video-intel
 #apt --no-install-recommends install -y xserver-xorg-video-nouveau
 #apt --no-install-recommends install -y xserver-xorg-video-nvidia
 #apt --no-install-recommends install -y xserver-xorg-video-ati
-apt --no-install-recommends install -y xserver-xorg-video-fbdev
-apt --no-install-recommends install -y xserver-xorg
+#apt --no-install-recommends install -y xserver-xorg-video-fbdev
+#apt --no-install-recommends install -y xserver-xorg
+apt install -y xinit
 
 #-------------------------
 #Xfce minimo
@@ -39,10 +40,11 @@ apt install -y xfce4-terminal
 apt update
 
 #### Basicos ###
-apt --no-install-recommends install -y lightdm
-apt --no-install-recommends install -y lxtask
-apt --no-install-recommends install -y mousepad
-apt install -y thunar
+#apt --no-install-recommends install -y lightdm
+#apt --no-install-recommends install -y lxtask
+#apt --no-install-recommends install -y mousepad
+apt --no-install-recommends install -y goodies
+#apt install -y thunar
 #apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
