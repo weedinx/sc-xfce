@@ -114,8 +114,8 @@ chmod 777 /usr/share/icons/
 
 apt update
 
-##### Instalação do seletor de cores via Flatpak #####
-flatpak install -y --user https://flathub.org/repo/appstream/nl.hjdskes.gcolor3.flatpakref
+##### Instalação do seletor de cores #####
+apt install -y gpick
 
 ###Instalação do tema Yaru Colors###
 #apt install -y yaru-theme-gtk*
