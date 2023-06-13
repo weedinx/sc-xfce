@@ -122,6 +122,11 @@ wget https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/app-outlet_
 apt install -y ./app-outlet*.deb
 apt autoremove --purge snapd -y
 
+apt update
+
+##### Instalação do seletor de cores via Flatpak #####
+flatpak install -y --user https://flathub.org/repo/appstream/nl.hjdskes.gcolor3.flatpakref
+
 ###Instalação do tema Yaru Colors###
 #apt install -y yaru-theme-gtk*
 apt install -y yaru-theme*
