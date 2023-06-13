@@ -55,46 +55,38 @@ apt update
 #-------------------------
 
 #### Codecs e Audio/Video ###
-sudo apt install -y gstreamer1.0-libav
+#sudo apt install -y gstreamer1.0-libav
 #apt-get install -y ffmpeg
-sudo apt install -y gstreamer1.0-plugins-good
-sudo apt install -y gstreamer1.0-plugins-bad
-sudo apt install -y gstreamer1.0-plugins-ugly
-sudo apt install -y gstreamer1.0-nice
-sudo apt install -y gstreamer1.0-plugins-base
-sudo apt install -y ffmpeg
-sudo apt install -y sox
-sudo apt install -y twolame
-sudo apt install -y vorbis-tools
-sudo apt install -y lame
-sudo apt install -y faad
-sudo apt install -y mencoder
-sudo apt --no-install-recommends install -y vlc
-sudo apt --no-install-recommends install -y pulseaudio
-sudo apt --no-install-recommends install -y xfce4-pulseaudio-plugin
+#sudo apt install -y gstreamer1.0-plugins-good
+#sudo apt install -y gstreamer1.0-plugins-bad
+#sudo apt install -y gstreamer1.0-plugins-ugly
+#sudo apt install -y gstreamer1.0-nice
+#sudo apt install -y gstreamer1.0-plugins-base
+#sudo apt install -y ffmpeg
+#sudo apt install -y sox
+#sudo apt install -y twolame
+#sudo apt install -y vorbis-tools
+#sudo apt install -y lame
+#sudo apt install -y faad
+#sudo apt install -y mencoder
+#sudo apt --no-install-recommends install -y vlc
+#sudo apt --no-install-recommends install -y pulseaudio
+#sudo apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
 
 apt update
 
 #### Complementos ###
-sudo apt --no-install-recommends install -y cpu-x
-sudo apt install -y adwaita-qt
-#apt install paper-icon-theme papirus-icon-theme -y
-sudo apt install -y xfce4-whiskermenu-plugin
-sudo apt install -y viewnior
-sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
-#apt-get install -y xcompmgr
-sudo apt install -y firefox-esr firefox-esr-l10n-pt-br
-#apt --no-install-recommends install -y atril
+sudo apt install -y curl zip unzip git htop xfce4-whiskermenu-plugin viewnior cpu-x gpick
 sudo apt-get --no-install-recommends install -y desktop-base
+sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
+#sudo apt install -y adwaita-qt
+#apt --no-install-recommends install -y atril
 #sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 #sudo apt install libreoffice-l10n-pt-br -y
-sudo apt install htop -y
-sudo apt install -y curl zip unzip git
-
-## Instalação da interface do bluetooth###
 apt update
 
+## Instalação da interface do bluetooth###
 #apt install -y bluez pulseaudio-module-bluetooth
 #apt install -y blueman
 
@@ -116,9 +108,6 @@ chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/icons/
 
 apt update
-
-##### Instalação do seletor de cores #####
-sudo apt install -y gpick
 
 ###Instalação do tema Yaru Colors###
 sudo apt install -y yaru-theme-gtk
