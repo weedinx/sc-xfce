@@ -6,7 +6,8 @@ apt update && apt upgrade -y
 #Drivers
 #-------------------------
 
-apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
+#apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
+apt install linux-firmware -y
 
 #-------------------------
 #Xorg minimo
