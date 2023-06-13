@@ -7,7 +7,7 @@ sudo apt update && apt upgrade -y
 #-------------------------
 
 #apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
-
+#linux-firmware
 #-------------------------
 #Xorg minimo
 #-------------------------
