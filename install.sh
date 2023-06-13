@@ -105,9 +105,6 @@ apt install -y ./code*.deb
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
 apt install -y ./balena-etcher*.deb
 
-wget -O hyper_3.4.1_amd64.deb https://releases.hyper.is/download/deb
-apt install -y ./hyper*.deb
-
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/icons/
