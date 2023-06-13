@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt update && apt upgrade -y
+sudo apt update && apt upgrade -y
 
 #-------------------------
 #Drivers
@@ -21,14 +21,14 @@ apt update && apt upgrade -y
 #apt --no-install-recommends install -y xserver-xorg-video-fbdev
 #apt --no-install-recommends install -y xserver-xorg
 #apt install -y xinit
-apt install -y xserver-xorg xorg
+sudo apt install -y xserver-xorg xorg
 
 #-------------------------
 #Xfce minimo
 #-------------------------
 
 #apt --no-install-recommends install -y xfwm4
-apt --no-install-recommends install -y xfce4-session
+sudo apt --no-install-recommends install -y xfce4-session
 #apt --no-install-recommends install -y xfce4-panel
 #apt --no-install-recommends install -y xfdesktop4
 #apt --no-install-recommends install -y policykit-1
@@ -36,16 +36,16 @@ apt --no-install-recommends install -y xfce4-session
 #apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 #apt --no-install-recommends install -y x11-xserver-utils
 #apt --no-install-recommends install -y xfce4-screenshooter
-apt install -y xfce4-terminal
-apt install -y thunar
+sudo apt install -y xfce4-terminal
+sudo apt install -y thunar
 
 apt update
 
 #### Basicos ###
-apt -y lightdm
+sudo apt -y lightdm
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
-apt install -y xfce4-goodies
+sudo apt install -y xfce4-goodies
 #apt install -y thunar-volman
 #-------------------------
 #apt install -y network-manager-gnome
@@ -53,42 +53,42 @@ apt install -y xfce4-goodies
 #-------------------------
 
 #### Codecs e Audio/Video ###
-apt install -y gstreamer1.0-libav
+sudo apt install -y gstreamer1.0-libav
 #apt-get install -y ffmpeg
-apt install -y gstreamer1.0-plugins-good
-apt install -y gstreamer1.0-plugins-bad
-apt install -y gstreamer1.0-plugins-ugly
-apt install -y gstreamer1.0-nice
-apt install -y gstreamer1.0-plugins-base
-apt install -y ffmpeg
-apt install -y sox
-apt install -y twolame
-apt install -y vorbis-tools
-apt install -y lame
-apt install -y faad
-apt install -y mencoder
-apt --no-install-recommends install -y vlc
-apt --no-install-recommends -y install pulseaudio
-apt --no-install-recommends install -y xfce4-pulseaudio-plugin
+sudo apt install -y gstreamer1.0-plugins-good
+sudo apt install -y gstreamer1.0-plugins-bad
+sudo apt install -y gstreamer1.0-plugins-ugly
+sudo apt install -y gstreamer1.0-nice
+sudo apt install -y gstreamer1.0-plugins-base
+sudo apt install -y ffmpeg
+sudo apt install -y sox
+sudo apt install -y twolame
+sudo apt install -y vorbis-tools
+sudo apt install -y lame
+sudo apt install -y faad
+sudo apt install -y mencoder
+sudo apt --no-install-recommends install -y vlc
+sudo apt --no-install-recommends -y install pulseaudio
+sudo apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
 
 apt update
 
 #### Complementos ###
-apt --no-install-recommends install -y cpu-x
-apt install -y adwaita-qt
+sudo apt --no-install-recommends install -y cpu-x
+sudo apt install -y adwaita-qt
 #apt install paper-icon-theme papirus-icon-theme -y
 #apt install -y xfce4-whiskermenu-plugin
-apt install -y viewnior
-apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
+sudo apt install -y viewnior
+sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
 #apt install -y firefox-esr firefox-esr-l10n-pt-br
 #apt --no-install-recommends install -y atril
 #apt-get --no-install-recommends install -y desktop-base
-apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
-apt install libreoffice-l10n-pt-br -y
-apt install htop -y
-apt install -y curl zip unzip git
+sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
+sudo apt install libreoffice-l10n-pt-br -y
+sudo apt install htop -y
+sudo apt install -y curl zip unzip git
 
 ## Instalação da interface do bluetooth###
 apt update
@@ -116,16 +116,16 @@ chmod 777 /usr/share/icons/
 apt update
 
 ##### Instalação do seletor de cores #####
-apt install -y gpick
+sudo apt install -y gpick
 
 ###Instalação do tema Yaru Colors###
-apt install -y yaru-theme-gtk*
-apt install -y yaru-theme*
+sudo apt install -y yaru-theme-gtk*
+sudo apt install -y yaru-theme*
 
 ###Instalção da inferface gráfica de rede###
-apt install -y network-manager
-apt --no-install-recommends install -y network-manager-gnome
-systemctl enable systemd-networkd.service
+sudo apt install -y network-manager
+sudo apt --no-install-recommends install -y network-manager-gnome
+sudo systemctl enable systemd-networkd.service
 systemctl start systemd-networkd.service
 systemctl restart systemd-networkd.service
 
