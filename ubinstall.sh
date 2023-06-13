@@ -26,15 +26,15 @@ apt install -y xinit
 #Xfce minimo
 #-------------------------
 
-apt --no-install-recommends install -y xfwm4
+#apt --no-install-recommends install -y xfwm4
 apt --no-install-recommends install -y xfce4-session
-apt --no-install-recommends install -y xfce4-panel
-apt --no-install-recommends install -y xfdesktop4
-apt --no-install-recommends install -y policykit-1
-apt --no-install-recommends install -y xfce4-power-manager
-apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
-apt --no-install-recommends install -y x11-xserver-utils
-apt --no-install-recommends install -y xfce4-screenshooter
+#apt --no-install-recommends install -y xfce4-panel
+#apt --no-install-recommends install -y xfdesktop4
+#apt --no-install-recommends install -y policykit-1
+#apt --no-install-recommends install -y xfce4-power-manager
+#apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
+#apt --no-install-recommends install -y x11-xserver-utils
+#apt --no-install-recommends install -y xfce4-screenshooter
 apt install -y xfce4-terminal
 
 apt update
@@ -43,7 +43,7 @@ apt update
 #apt --no-install-recommends install -y lightdm
 #apt --no-install-recommends install -y lxtask
 #apt --no-install-recommends install -y mousepad
-apt --no-install-recommends install -y goodies
+apt xfce4-goodies
 #apt install -y thunar
 #apt install -y thunar-volman
 #-------------------------
@@ -77,17 +77,17 @@ apt update
 apt --no-install-recommends install -y cpu-x
 apt install -y adwaita-qt
 #apt install paper-icon-theme papirus-icon-theme -y
-apt install -y xfce4-whiskermenu-plugin
+#apt install -y xfce4-whiskermenu-plugin
 apt install -y viewnior
 apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #apt-get install -y xcompmgr
 #apt install -y firefox-esr firefox-esr-l10n-pt-br
-apt --no-install-recommends install -y atril
+#apt --no-install-recommends install -y atril
 #apt-get --no-install-recommends install -y desktop-base
 apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 apt install libreoffice-l10n-pt-br -y
 apt install htop -y
-apt install -y curl
+apt install -y curl zip unzip git
 
 ## Instalação da interface do bluetooth###
 apt update
@@ -118,7 +118,7 @@ apt update
 apt install -y gpick
 
 ###Instalação do tema Yaru Colors###
-#apt install -y yaru-theme-gtk*
+apt install -y yaru-theme-gtk*
 apt install -y yaru-theme*
 
 ###Instalção da inferface gráfica de rede###
