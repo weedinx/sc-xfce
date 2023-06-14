@@ -14,12 +14,12 @@ sudo apt update && apt upgrade -y
 
 sudo apt --no-install-recommends install -y xserver-xorg-core
 #apt --no-install-recommends install -y xserver-xorg-video-vesa
-#apt --no-install-recommends install -y xserver-xorg-video-intel
+apt --no-install-recommends install -y xserver-xorg-video-intel
 #apt --no-install-recommends install -y xserver-xorg-video-nouveau
 #apt --no-install-recommends install -y xserver-xorg-video-nvidia
-sudo apt --no-install-recommends install -y xserver-xorg-video-ati
+#sudo apt --no-install-recommends install -y xserver-xorg-video-ati
 sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev
-sudo apt --no-install-recommends install -y xserver-xorg
+#sudo apt --no-install-recommends install -y xserver-xorg
 #apt install -y xinit
 #sudo apt install -y xserver-xorg-core xserver-xorg-video-fbdev xserver-xorg
 
