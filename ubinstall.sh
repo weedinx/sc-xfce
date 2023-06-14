@@ -30,19 +30,21 @@ sudo apt --no-install-recommends install -y xserver-xorg
 sudo apt --no-install-recommends install -y xfwm4
 sudo apt --no-install-recommends install -y xfce4-panel
 sudo apt --no-install-recommends install -y xfdesktop4
-sudo apt --no-install-recommends install -y policykit-1
 sudo apt --no-install-recommends install -y xfce4-power-manager
 sudo apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 sudo apt --no-install-recommends install -y x11-xserver-utils
 sudo apt --no-install-recommends install -y xfce4-screenshooter
 sudo apt --no-install-recommends install -y xfce4-session
-sudo apt --no-install-recommends install -y xfce4-goodies
+sudo apt --no-install-recommends install -y xfce4-sensors-plugin
+sudo apt --no-install-recommends install -y xfce4-taskmanager
+sudo apt --no-install-recommends install -y xfce4-places-plugin
+sudo apt --no-install-recommends install -y xfce4-diskperf-plugin
+sudo apt --no-install-recommends install -y xfce4-datetime-plugin
+sudo apt --no-install-recommends install -y thunar-media-tags-plugin
+sudo apt --no-install-recommends install -y thunar-archive-plugin
 sudo apt install -y xfce4-terminal
 sudo apt install -y thunar
-
-
-
-apt update
+#sudo apt --no-install-recommends install -y xfce4-goodies
 
 #### Basicos ###
 
@@ -74,17 +76,14 @@ apt update
 #sudo apt --no-install-recommends install -y xfce4-pulseaudio-plugin
 #apt-get install -y alsa-utils
 
-apt update
-
 #### Complementos ###
 sudo apt install -y curl zip unzip git htop xfce4-whiskermenu-plugin viewnior cpu-x gpick
-sudo apt-get --no-install-recommends install -y desktop-base
+#sudo apt-get --no-install-recommends install -y desktop-base
 sudo apt --no-install-recommends install -y cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #sudo apt install -y adwaita-qt
 #apt --no-install-recommends install -y atril
 #sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
 #sudo apt install libreoffice-l10n-pt-br -y
-apt update
 
 ## Instalação da interface do bluetooth###
 #apt install -y bluez pulseaudio-module-bluetooth
@@ -117,7 +116,6 @@ sudo apt install -y yaru-theme-icon
 ###Instalção da inferface gráfica de rede###
 sudo apt install -y network-manager
 sudo apt --no-install-recommends install -y network-manager-gnome
-sudo apt install -y network-manager-gnome
 sudo systemctl enable systemd-networkd.service
 systemctl start systemd-networkd.service
 systemctl restart systemd-networkd.service
