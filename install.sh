@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 
 #-------------------------
-#Drivers
+#Drivers#
 #-------------------------
 
 #apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
