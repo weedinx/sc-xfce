@@ -35,7 +35,7 @@ sudo apt install -y language-pack-gnome-pt-base language-pack-gnome-pt language-
 
 
 ## Instalação da interface do bluetooth###
-sudo apt install -y synaptic
+sudo apt install -y synaptic ubuntu-keyring
 
 #wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
 #apt install -y ./virtualbox*.deb
