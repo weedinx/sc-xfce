@@ -1,0 +1,11 @@
+$ cd /usr/share/lightdm/lightdm.conf.d
+$ sudo mv 50-unity-greeter.conf 50-unity-greeter.conf.old
+$ sudo vi 50-xfce-greeter.conf
+Preencha o arquivo com estas linhas:
+
+[SeatDefaults]
+greeter-session=unity-greeter
+user-session=xfce
+Salve o arquivo e agora estamos prontos para reiniciar o sistema.
+
+$ sudo shutdown -r now
