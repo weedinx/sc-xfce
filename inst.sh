@@ -9,7 +9,7 @@ sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev
 sudo apt --no-install-recommends install -y xserver-xorg-video-intel
 
 sudo apt --no-install-recommends install -y xfwm4
-sudo apt --no-install-recommends install -y xfce4-session
+sudo apt install -y xfce4-session
 sudo apt --no-install-recommends install -y xfce4-panel
 sudo apt --no-install-recommends install -y xfdesktop4
 sudo apt --no-install-recommends install -y policykit-1
@@ -17,7 +17,7 @@ sudo apt --no-install-recommends install -y xfce4-power-manager
 sudo apt --no-install-recommends install -y gtk2-engines gtk2-engines-pixbuf
 sudo apt --no-install-recommends install -y x11-xserver-utils
 
-sudo apt --no-install-recommends install -y lightdm
+sudo apt install -y lightdm
 sudo apt --no-install-recommends install -y lxterminal
 sudo apt --no-install-recommends install -y lxtask
 sudo apt --no-install-recommends install -y mousepad
@@ -27,7 +27,7 @@ sudo apt --no-install-recommends install -y curl zip unzip git htop xfce4-whiske
 sudo apt --no-install-recommends install -y libreoffice-writer libreoffice-gtk3 -y
 sudo apt install libreoffice-l10n-pt-br -y
 
-sudo apt install network-manager -y
+#sudo apt install network-manager -y
 sudo apt install linux-firmware -y
 sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman
