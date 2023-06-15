@@ -13,8 +13,8 @@ sudo apt install libreoffice-l10n-pt-br -y
 apt install -y bluez pulseaudio-module-bluetooth
 #apt install -y blueman
 
-wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
-apt install -y ./virtualbox*.deb
+sudo apt install -y virtualbox
+sudo apt install -y virtualbox-ext-pack
 adduser and vboxusers
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
