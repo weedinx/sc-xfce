@@ -10,7 +10,7 @@ sudo apt install network-manager -y
 sudo apt install linux-firmware -y
 sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin
 sudo apt install -y curl zip unzip git htop xfce4-whiskermenu-plugin viewnior cpu-x gpick yaru-theme-gtk yaru-theme-icon
-apt install -y bluez pulseaudio-module-bluetooth
+apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman
 
 #######################
 sudo apt install --no-install-recommends libreoffice-writer libreoffice-gtk3 -y
