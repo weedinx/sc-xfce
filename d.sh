@@ -24,4 +24,4 @@ adduser and vboxusers
 
 apt update && apt upgrade -y
 
-apt --no-install-recommends install -y lightdm
+apt install -y lightdm
