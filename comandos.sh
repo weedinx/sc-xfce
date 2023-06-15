@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt --no-install-recommends install -y 
 xfce4-diskperf-plugin
 xfce4-datetime-plugin
