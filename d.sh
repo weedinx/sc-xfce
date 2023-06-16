@@ -10,7 +10,7 @@ apt --no-install-recommends install -y xserver-xorg
 apt --no-install-recommends install -y xserver-xorg-video-amdgpu 
 apt --no-install-recommends install -y xserver-xorg-video-ati 
 apt --no-install-recommends install -y xserver-xorg-video-intel
-apt --no-install-recommends install -y network-manager-gnome
+apt install -y network-manager
 
 apt install -y xfce4
 
@@ -21,6 +21,7 @@ apt install -y pulseaudio bluez pulseaudio-module-bluetooth thunderbird qbittorr
 apt install -y desktop-base firefox-esr-l10n-pt-br
 apt install -y virtualbox virtualbox-ext-pack
 adduser and vboxusers
+apt --no-install-recommends install -y network-manager-gnome
 
 apt update && apt upgrade -y
 
