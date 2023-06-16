@@ -14,6 +14,8 @@ apt install -y network-manager
 
 apt install -y xfce4
 
+apt update
+
 #apt-get --no-install-recommends install -y slim
 apt install -y curl zip unzip htop viewnior cpu-x gpick cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 apt install -y thunar-volman xfce4-terminal xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin thunar-archive-plugin thunar
