@@ -9,7 +9,7 @@ sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev
 sudo apt --no-install-recommends install -y xserver-xorg-video-intel
 
 sudo apt --no-install-recommends install -y xfwm4
-sudo apt install -y xfce4-session
+sudo apt --no-install-recommends install -y xfce4-session
 sudo apt --no-install-recommends install -y xfce4-panel
 sudo apt --no-install-recommends install -y xfdesktop4
 sudo apt --no-install-recommends install -y policykit-1
