@@ -28,14 +28,14 @@ sudo apt --no-install-recommends install -y mousepad
 #sudo apt install libreoffice-l10n-pt-br -y
 
 #sudo apt install network-manager -y
-sudo apt install linux-firmware -y
-sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
+#sudo apt install linux-firmware -y
+sudo apt --no-install-recommends install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
 #sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman
 #sudo apt install -y language-pack-gnome-pt-base language-pack-gnome-pt language-pack-pt-base language-pack-pt language-selector-common
 
 
 ## Instalação da interface do bluetooth###
-sudo apt install -y synaptic ubuntu-keyring
+#sudo apt install -y synaptic ubuntu-keyring
 
 #wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
 #apt install -y ./virtualbox*.deb
