@@ -3,10 +3,10 @@ sudo apt update && apt upgrade -y
 sudo apt --no-install-recommends install -y xserver-xorg-core
 sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev
 sudo apt --no-install-recommends install -y xserver-xorg
-sudo apt --no-install-recommends install -y xserver-xorg-video-amdgpu 
-sudo apt --no-install-recommends install -y xserver-xorg-video-ati 
-sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev 
-sudo apt --no-install-recommends install -y xserver-xorg-video-intel
+#sudo apt --no-install-recommends install -y xserver-xorg-video-amdgpu 
+#sudo apt --no-install-recommends install -y xserver-xorg-video-ati 
+#sudo apt --no-install-recommends install -y xserver-xorg-video-fbdev 
+#sudo apt --no-install-recommends install -y xserver-xorg-video-intel
 
 sudo apt --no-install-recommends install -y xfwm4
 sudo apt --no-install-recommends install -y xfce4-session
